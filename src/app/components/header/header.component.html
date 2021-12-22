@@ -1,0 +1,13 @@
+<div class="header-container flex flex-row">
+    <div class="header-left">
+        <button mat-button (click)="clickMenu()"><div class="material-icons">menu</div></button>
+            Dashboard
+    </div>
+    <div>
+        <button mat-button [matMenuTriggerFor]="profileMenu">Menu</button>
+        <mat-menu #profileMenu="matMenu">
+            <button mat-menu-item>Item 1</button>
+            <button mat-menu-item>Item 2</button>
+        </mat-menu>
+    </div>
+</div>

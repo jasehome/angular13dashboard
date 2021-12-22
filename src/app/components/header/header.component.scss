@@ -1,0 +1,23 @@
+.header-container {
+    height: 56px;
+    padding: 0 1rem;
+    background-color: #6610f2;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .header-left {
+        flex: 1;
+    }
+}
+
+.headerTitle {
+    font-size: 25px;
+}
+
+.material-icons {
+    color: white;
+    padding-right: 20px;
+}
+

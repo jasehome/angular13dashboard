@@ -1,0 +1,13 @@
+<mat-sidenav-container class='app-drawer-container' >
+  <mat-sidenav #sidenav mode="side">
+    sidenav bar
+    <ul>
+      <li>Menu Item 1</li>
+      <li>Menu Item 2</li>
+      <li>Menu Item 3</li>
+    </ul>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <button mat-button (click)="sidenav.toggle()">Main content</button>
+  </mat-sidenav-content>
+</mat-sidenav-container>
